@@ -4,9 +4,9 @@ const Card = ({name, jobTitle, id}) => {
     return (
         <div className='tc bg-light-green dib br3 pa3 ma2 grow bw2 shadow-5'>
             <img src={`https://robohash.org/${id}?200x200`} alt='robots'/>
-            <div>
-                <h2>{name}</h2>
-                <p>{jobTitle}</p>
+            <div className='sans-serif'>
+                <h2 className='fw6 b--black-50'>{name}</h2>
+                <p className='fw3 b--black-50'>{jobTitle}</p>
             </div>
         </div>
     );
