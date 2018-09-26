@@ -8,7 +8,7 @@ const CardList = ({ robots }) => {
     })
     return(
         <div className='tc'>
-           { cardComponent };
+           { cardComponent }
         </div>
     )
 }
